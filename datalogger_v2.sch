@@ -1,0 +1,176 @@
+EESchema Schematic File Version 2
+LIBS:datalogger_v2-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Edison
+LIBS:PCA9306
+LIBS:opa228
+LIBS:ads1263
+LIBS:tps7a4700
+LIBS:TXB0108-PW
+LIBS:DataStorage
+LIBS:ada4528-1
+LIBS:ads1299
+LIBS:LM4132
+LIBS:REF3025
+LIBS:datalogger_v2-cache
+EELAYER 25 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 1 6
+Title "Datalogger / 7-of-9"
+Date "2016-06-01"
+Rev "2"
+Comp "Richard Oare / University of Idaho"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 4100 2650 1200 400 
+U 55B64CA3
+F0 "Power Management" 60
+F1 "pwr_mgt.sch" 60
+$EndSheet
+$Sheet
+S 4050 3600 1250 900 
+U 55BACE63
+F0 "ADC" 60
+F1 "adc.sch" 60
+F2 "SCK" I R 5300 3850 60 
+F3 "RX" I R 5300 3950 60 
+F4 "TX" O R 5300 4050 60 
+F5 "DRDY" O R 5300 4150 60 
+F6 "AIN0" I L 4050 3700 60 
+F7 "AIN1" I L 4050 3800 60 
+F8 "AIN2" I L 4050 3900 60 
+F9 "AIN3" I L 4050 4000 60 
+F10 "AIN4" I L 4050 4100 60 
+F11 "AIN5" I L 4050 4200 60 
+F12 "START" I R 5300 4250 60 
+F13 "PWDN" I R 5300 3650 60 
+F14 "CS" I R 5300 3750 60 
+F15 "RESET" I R 5300 4350 60 
+$EndSheet
+$Sheet
+S 7300 3600 750  900 
+U 575CCED8
+F0 "Interface" 60
+F1 "Interface.sch" 60
+F2 "SPI_CLK" I L 7300 3850 60 
+F3 "SPI_RXD" I L 7300 4050 60 
+F4 "SPI_TXD" I L 7300 3950 60 
+F5 "START" I L 7300 4250 60 
+F6 "PWDN" I L 7300 3650 60 
+F7 "DRDY" I L 7300 4150 60 
+F8 "CS" I L 7300 3750 60 
+F9 "RESET" O L 7300 4350 60 
+$EndSheet
+$Sheet
+S 2800 3600 950  900 
+U 5825D170
+F0 "Analog Inputs" 60
+F1 "AnalogInput.sch" 60
+F2 "AIN0" I R 3750 3700 60 
+F3 "AIN1" I R 3750 3800 60 
+F4 "AIN2" I R 3750 3900 60 
+F5 "AIN3" I R 3750 4000 60 
+F6 "AIN4" I R 3750 4100 60 
+F7 "AIN5" I R 3750 4200 60 
+$EndSheet
+Wire Wire Line
+	3750 3700 4050 3700
+Wire Wire Line
+	4050 3800 3750 3800
+Wire Wire Line
+	3750 3900 4050 3900
+Wire Wire Line
+	4050 4000 3750 4000
+Wire Wire Line
+	3750 4100 4050 4100
+Wire Wire Line
+	4050 4200 3750 4200
+Wire Wire Line
+	5650 4350 5300 4350
+Wire Wire Line
+	5300 4250 5650 4250
+Wire Wire Line
+	5300 4150 5650 4150
+Wire Wire Line
+	5650 4050 5300 4050
+Wire Wire Line
+	5300 3950 5650 3950
+Wire Wire Line
+	5650 3850 5300 3850
+Wire Wire Line
+	5300 3750 5650 3750
+Wire Wire Line
+	5650 3650 5300 3650
+Wire Wire Line
+	6850 3650 7300 3650
+Wire Wire Line
+	7300 3750 6850 3750
+Wire Wire Line
+	7300 3850 6850 3850
+Wire Wire Line
+	6850 3950 7300 3950
+Wire Wire Line
+	6850 4050 7300 4050
+Wire Wire Line
+	7300 4150 6850 4150
+Wire Wire Line
+	6850 4250 7300 4250
+Wire Wire Line
+	6850 4350 7300 4350
+$Sheet
+S 5650 3600 1200 900 
+U 58AE5B2B
+F0 "Level Shift" 60
+F1 "Level Shifter.sch" 60
+F2 "PWDN_ADC" B L 5650 3650 60 
+F3 "PWDN_MC" B R 6850 3650 60 
+F4 "CS_ADC" B L 5650 3750 60 
+F5 "CS_MC" B R 6850 3750 60 
+F6 "SCK_ADC" B L 5650 3850 60 
+F7 "SCK_MC" B R 6850 3850 60 
+F8 "RX_ADC" B L 5650 3950 60 
+F9 "TX_ADC" B L 5650 4050 60 
+F10 "DRDY_ADC" B L 5650 4150 60 
+F11 "START_ADC" B L 5650 4250 60 
+F12 "RESET_ADC" B L 5650 4350 60 
+F13 "TX_MC" I R 6850 3950 60 
+F14 "RX_MC" O R 6850 4050 60 
+F15 "DRDY_MC" I R 6850 4150 60 
+F16 "START_MC" I R 6850 4250 60 
+F17 "RESET_MC" I R 6850 4350 60 
+$EndSheet
+$EndSCHEMATC

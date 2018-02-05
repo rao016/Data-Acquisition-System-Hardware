@@ -1,0 +1,599 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Edison
+LIBS:PCA9306
+LIBS:opa228
+LIBS:ads1263
+LIBS:tps7a4700
+LIBS:TXB0108-PW
+LIBS:DataStorage
+LIBS:ada4528-1
+LIBS:datalogger_v2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L SWITCH_INV SW6
+U 1 1 5825D44D
+P 9000 1000
+F 0 "SW6" H 8800 1150 50  0000 C CNN
+F 1 "SWITCH_INV" H 8850 850 50  0000 C CNN
+F 2 "Footprints:switch" H 9000 1000 50  0001 C CNN
+F 3 "" H 9000 1000 50  0000 C CNN
+	1    9000 1000
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW11
+U 1 1 5825D4D9
+P 9500 1400
+F 0 "SW11" H 9300 1550 50  0000 C CNN
+F 1 "SWITCH_INV" H 9350 1250 50  0000 C CNN
+F 2 "Footprints:switch" H 9500 1400 50  0001 C CNN
+F 3 "" H 9500 1400 50  0000 C CNN
+	1    9500 1400
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW7
+U 1 1 5825D4FF
+P 9000 1750
+F 0 "SW7" H 8800 1900 50  0000 C CNN
+F 1 "SWITCH_INV" H 8850 1600 50  0000 C CNN
+F 2 "Footprints:switch" H 9000 1750 50  0001 C CNN
+F 3 "" H 9000 1750 50  0000 C CNN
+	1    9000 1750
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW12
+U 1 1 5825D55E
+P 9500 2150
+F 0 "SW12" H 9300 2300 50  0000 C CNN
+F 1 "SWITCH_INV" H 9350 2000 50  0000 C CNN
+F 2 "Footprints:switch" H 9500 2150 50  0001 C CNN
+F 3 "" H 9500 2150 50  0000 C CNN
+	1    9500 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW8
+U 1 1 5825D564
+P 9000 2500
+F 0 "SW8" H 8800 2650 50  0000 C CNN
+F 1 "SWITCH_INV" H 8850 2350 50  0000 C CNN
+F 2 "Footprints:switch" H 9000 2500 50  0001 C CNN
+F 3 "" H 9000 2500 50  0000 C CNN
+	1    9000 2500
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW13
+U 1 1 5825D79B
+P 9500 2900
+F 0 "SW13" H 9300 3050 50  0000 C CNN
+F 1 "SWITCH_INV" H 9350 2750 50  0000 C CNN
+F 2 "Footprints:switch" H 9500 2900 50  0001 C CNN
+F 3 "" H 9500 2900 50  0000 C CNN
+	1    9500 2900
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW9
+U 1 1 5825D7A1
+P 9000 3250
+F 0 "SW9" H 8800 3400 50  0000 C CNN
+F 1 "SWITCH_INV" H 8850 3100 50  0000 C CNN
+F 2 "Footprints:switch" H 9000 3250 50  0001 C CNN
+F 3 "" H 9000 3250 50  0000 C CNN
+	1    9000 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW14
+U 1 1 5825D7A7
+P 9500 3650
+F 0 "SW14" H 9300 3800 50  0000 C CNN
+F 1 "SWITCH_INV" H 9350 3500 50  0000 C CNN
+F 2 "Footprints:switch" H 9500 3650 50  0001 C CNN
+F 3 "" H 9500 3650 50  0000 C CNN
+	1    9500 3650
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW10
+U 1 1 5825D7AD
+P 9000 4000
+F 0 "SW10" H 8800 4150 50  0000 C CNN
+F 1 "SWITCH_INV" H 8850 3850 50  0000 C CNN
+F 2 "Footprints:switch" H 9000 4000 50  0001 C CNN
+F 3 "" H 9000 4000 50  0000 C CNN
+	1    9000 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L SWITCH_INV SW15
+U 1 1 5825D96B
+P 9500 4400
+F 0 "SW15" H 9300 4550 50  0000 C CNN
+F 1 "SWITCH_INV" H 9350 4250 50  0000 C CNN
+F 2 "Footprints:switch" H 9500 4400 50  0001 C CNN
+F 3 "" H 9500 4400 50  0000 C CNN
+	1    9500 4400
+	-1   0    0    1   
+$EndComp
+Text HLabel 9500 1000 2    60   Input ~ 0
+AIN0
+Text HLabel 10000 1400 2    60   Input ~ 0
+AIN1
+Text HLabel 9500 1750 2    60   Input ~ 0
+AIN2
+Text HLabel 10000 2150 2    60   Input ~ 0
+AIN3
+Text HLabel 9500 2500 2    60   Input ~ 0
+AIN4
+Text HLabel 10000 2900 2    60   Input ~ 0
+AIN5
+Text HLabel 9500 3250 2    60   Input ~ 0
+AIN6
+Text HLabel 10000 3650 2    60   Input ~ 0
+AIN7
+Text HLabel 9500 4000 2    60   Input ~ 0
+AIN8
+Text HLabel 10000 4400 2    60   Input ~ 0
+AIN9
+Text GLabel 8500 1100 0    60   Input ~ 0
+AREF
+Text GLabel 9000 1500 0    60   Input ~ 0
+AREF
+Text GLabel 8500 1850 0    60   Input ~ 0
+AREF
+Text GLabel 9000 2250 0    60   Input ~ 0
+AREF
+Text GLabel 8500 2600 0    60   Input ~ 0
+AREF
+Text GLabel 9000 3000 0    60   Input ~ 0
+AREF
+Text GLabel 8500 3350 0    60   Input ~ 0
+AREF
+Text GLabel 9000 3750 0    60   Input ~ 0
+AREF
+Text GLabel 8500 4100 0    60   Input ~ 0
+AREF
+Text GLabel 9000 4500 0    60   Input ~ 0
+AREF
+$Comp
+L CONN_01X10 P6
+U 1 1 5825E37C
+P 6950 2650
+F 0 "P6" H 6950 3200 50  0000 C CNN
+F 1 "CONN_01X10" V 7050 2650 50  0000 C CNN
+F 2 "Footprints:10pinConn" H 6950 2650 50  0001 C CNN
+F 3 "" H 6950 2650 50  0000 C CNN
+	1    6950 2650
+	-1   0    0    1   
+$EndComp
+$Comp
+L D D7
+U 1 1 5867315A
+P 7800 750
+F 0 "D7" H 7800 850 50  0000 C CNN
+F 1 "MSP5.0A" H 7800 650 50  0000 C CNN
+F 2 "Footprints:5vdiode" H 7800 750 50  0001 C CNN
+F 3 "" H 7800 750 50  0000 C CNN
+	1    7800 750 
+	0    1    1    0   
+$EndComp
+Text GLabel 7800 600  2    60   Input ~ 0
+A+
+$Comp
+L D D8
+U 1 1 586734B6
+P 7800 1150
+F 0 "D8" H 7800 1250 50  0000 C CNN
+F 1 "MSP5.0A" H 7800 1050 50  0000 C CNN
+F 2 "Footprints:5vdiode" H 7800 1150 50  0001 C CNN
+F 3 "" H 7800 1150 50  0000 C CNN
+	1    7800 1150
+	0    1    1    0   
+$EndComp
+$Comp
+L D D9
+U 1 1 586734F9
+P 7800 1500
+F 0 "D9" H 7800 1600 50  0000 C CNN
+F 1 "MSP5.0A" H 7800 1400 50  0000 C CNN
+F 2 "Footprints:5vdiode" H 7800 1500 50  0001 C CNN
+F 3 "" H 7800 1500 50  0000 C CNN
+	1    7800 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L D D3
+U 1 1 5867353C
+P 7650 1900
+F 0 "D3" H 7650 2000 50  0000 C CNN
+F 1 "MSP5.0A" H 7650 1800 50  0000 C CNN
+F 2 "Footprints:5vdiode" H 7650 1900 50  0001 C CNN
+F 3 "" H 7650 1900 50  0000 C CNN
+	1    7650 1900
+	0    1    1    0   
+$EndComp
+Text GLabel 7800 1000 2    60   Input ~ 0
+A+
+Text GLabel 7900 1400 2    60   Input ~ 0
+A+
+Text GLabel 7700 1800 2    60   Input ~ 0
+A+
+$Comp
+L D D10
+U 1 1 58673BFC
+P 7800 2250
+F 0 "D10" H 7800 2350 50  0000 C CNN
+F 1 "MSP5.0A" H 7800 2150 50  0000 C CNN
+F 2 "Footprints:5vdiode" H 7800 2250 50  0001 C CNN
+F 3 "" H 7800 2250 50  0000 C CNN
+	1    7800 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L D D13
+U 1 1 58673C47
+P 7950 2650
+F 0 "D13" H 7950 2750 50  0000 C CNN
+F 1 "MSP5.0A" H 7950 2550 50  0000 C CNN
+F 2 "Footprints:5vdiode" H 7950 2650 50  0001 C CNN
+F 3 "" H 7950 2650 50  0000 C CNN
+	1    7950 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L D D11
+U 1 1 58673C8F
+P 7800 3000
+F 0 "D11" H 7800 3100 50  0000 C CNN
+F 1 "MSP5.0A" H 7800 2900 50  0000 C CNN
+F 2 "Footprints:5vdiode" H 7800 3000 50  0001 C CNN
+F 3 "" H 7800 3000 50  0000 C CNN
+	1    7800 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L D D4
+U 1 1 58673CDE
+P 7700 3400
+F 0 "D4" H 7700 3500 50  0000 C CNN
+F 1 "MSP5.0A" H 7700 3300 50  0000 C CNN
+F 2 "Footprints:5vdiode" H 7700 3400 50  0001 C CNN
+F 3 "" H 7700 3400 50  0000 C CNN
+	1    7700 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L D D5
+U 1 1 58673D2F
+P 7700 3750
+F 0 "D5" H 7700 3850 50  0000 C CNN
+F 1 "MSP5.0A" H 7700 3650 50  0000 C CNN
+F 2 "Footprints:5vdiode" H 7700 3750 50  0001 C CNN
+F 3 "" H 7700 3750 50  0000 C CNN
+	1    7700 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L D D6
+U 1 1 58673EB6
+P 7700 4150
+F 0 "D6" H 7700 4250 50  0000 C CNN
+F 1 "MSP5.0A" H 7700 4050 50  0000 C CNN
+F 2 "Footprints:5vdiode" H 7700 4150 50  0001 C CNN
+F 3 "" H 7700 4150 50  0000 C CNN
+	1    7700 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 8000 2550 2    60   Input ~ 0
+A+
+Text GLabel 7850 2900 2    60   Input ~ 0
+A+
+Text GLabel 7750 3300 2    60   Input ~ 0
+A+
+Text GLabel 7750 3650 2    60   Input ~ 0
+A+
+Text GLabel 7750 4050 2    60   Input ~ 0
+A+
+$Comp
+L D D17
+U 1 1 586749D6
+P 8100 750
+F 0 "D17" H 8100 850 50  0000 C CNN
+F 1 "VESD01-02V" V 8100 450 50  0000 C CNN
+F 2 "" H 8100 750 50  0001 C CNN
+F 3 "" H 8100 750 50  0000 C CNN
+	1    8100 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D18
+U 1 1 58674A3D
+P 8100 1150
+F 0 "D18" H 8100 1250 50  0000 C CNN
+F 1 "VESD01-02V" V 8000 850 50  0000 C CNN
+F 2 "" H 8100 1150 50  0001 C CNN
+F 3 "" H 8100 1150 50  0000 C CNN
+	1    8100 1150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D21
+U 1 1 58674A9A
+P 8150 1500
+F 0 "D21" H 8150 1600 50  0000 C CNN
+F 1 "VESD01-02V" V 8150 1200 50  0000 C CNN
+F 2 "" H 8150 1500 50  0001 C CNN
+F 3 "" H 8150 1500 50  0000 C CNN
+	1    8150 1500
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8100 600  2    60   Input ~ 0
+AGND
+$Comp
+L D D12
+U 1 1 58675625
+P 7950 1900
+F 0 "D12" H 7950 2000 50  0000 C CNN
+F 1 "VESD01-02V" V 7900 1600 50  0000 C CNN
+F 2 "" H 7950 1900 50  0001 C CNN
+F 3 "" H 7950 1900 50  0000 C CNN
+	1    7950 1900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7150 900  7150 2200
+Wire Wire Line
+	7150 2300 7300 2300
+Wire Wire Line
+	7300 2300 7300 1300
+Wire Wire Line
+	7150 2400 7450 2400
+Wire Wire Line
+	7450 2400 7450 1650
+Wire Wire Line
+	7150 2500 7600 2500
+Wire Wire Line
+	7600 2500 7600 2050
+Wire Wire Line
+	7150 2600 7750 2600
+Wire Wire Line
+	7750 2600 7750 2400
+Wire Wire Line
+	7150 4300 7150 3100
+Wire Wire Line
+	7150 3000 7300 3000
+Wire Wire Line
+	7300 3000 7300 3900
+Wire Wire Line
+	7150 2900 7450 2900
+Wire Wire Line
+	7450 2900 7450 3550
+Wire Wire Line
+	7150 2800 7600 2800
+Wire Wire Line
+	7600 2800 7600 3150
+Wire Wire Line
+	7750 2800 7750 2700
+Wire Wire Line
+	7750 2700 7150 2700
+Wire Wire Line
+	7800 1350 7900 1350
+Wire Wire Line
+	7900 1350 7900 1400
+Connection ~ 7950 2800
+Connection ~ 7800 3150
+Connection ~ 7700 3550
+Connection ~ 7700 3900
+Wire Wire Line
+	7950 2500 8000 2500
+Wire Wire Line
+	8000 2500 8000 2550
+Wire Wire Line
+	7150 900  8500 900 
+Connection ~ 7800 900 
+Connection ~ 8100 900 
+Wire Wire Line
+	7300 1300 9000 1300
+Connection ~ 7800 1300
+Connection ~ 8100 1300
+Connection ~ 7800 1650
+Wire Wire Line
+	8150 1350 8250 1350
+Wire Wire Line
+	8250 1350 8250 1400
+Wire Wire Line
+	7450 1650 8500 1650
+Connection ~ 8150 1650
+Wire Wire Line
+	7600 2050 9000 2050
+Connection ~ 7650 2050
+Connection ~ 7950 2050
+Wire Wire Line
+	7650 1750 7700 1750
+Wire Wire Line
+	7700 1750 7700 1800
+Text GLabel 7850 2150 2    60   Input ~ 0
+A+
+$Comp
+L D D19
+U 1 1 5867605D
+P 8100 2250
+F 0 "D19" H 8100 2350 50  0000 C CNN
+F 1 "VESD01-02V" V 8050 1950 50  0000 C CNN
+F 2 "" H 8100 2250 50  0001 C CNN
+F 3 "" H 8100 2250 50  0000 C CNN
+	1    8100 2250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 2400 8500 2400
+Connection ~ 7800 2400
+Connection ~ 8100 2400
+Wire Wire Line
+	8100 2100 8150 2100
+Wire Wire Line
+	8150 2100 8150 2150
+Wire Wire Line
+	7800 2100 7850 2100
+Wire Wire Line
+	7850 2100 7850 2150
+$Comp
+L D D20
+U 1 1 5867666B
+P 8100 3000
+F 0 "D20" H 8100 3100 50  0000 C CNN
+F 1 "VESD01-02V" V 8050 2700 50  0000 C CNN
+F 2 "" H 8100 3000 50  0001 C CNN
+F 3 "" H 8100 3000 50  0000 C CNN
+	1    8100 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7600 3150 8500 3150
+Connection ~ 8100 3150
+Wire Wire Line
+	7800 2850 7850 2850
+Wire Wire Line
+	7850 2850 7850 2900
+Wire Wire Line
+	8100 2850 8150 2850
+Wire Wire Line
+	8150 2850 8150 2900
+$Comp
+L D D14
+U 1 1 58676F7B
+P 8000 3400
+F 0 "D14" H 8000 3500 50  0000 C CNN
+F 1 "VESD01-02V" V 7950 3100 50  0000 C CNN
+F 2 "" H 8000 3400 50  0001 C CNN
+F 3 "" H 8000 3400 50  0000 C CNN
+	1    8000 3400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D15
+U 1 1 58676FE8
+P 8000 3750
+F 0 "D15" H 8000 3850 50  0000 C CNN
+F 1 "VESD01-02V" V 7950 3450 50  0000 C CNN
+F 2 "" H 8000 3750 50  0001 C CNN
+F 3 "" H 8000 3750 50  0000 C CNN
+	1    8000 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L D D16
+U 1 1 58677051
+P 8000 4150
+F 0 "D16" H 8000 4250 50  0000 C CNN
+F 1 "VESD01-02V" V 7950 3850 50  0000 C CNN
+F 2 "" H 8000 4150 50  0001 C CNN
+F 3 "" H 8000 4150 50  0000 C CNN
+	1    8000 4150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7450 3550 9000 3550
+Connection ~ 8000 3550
+Wire Wire Line
+	8000 3600 8050 3600
+Wire Wire Line
+	8050 3600 8050 3650
+Wire Wire Line
+	7700 3600 7750 3600
+Wire Wire Line
+	7750 3600 7750 3650
+Wire Wire Line
+	7300 3900 8500 3900
+Connection ~ 8000 3900
+Wire Wire Line
+	7700 4000 7750 4000
+Wire Wire Line
+	7750 4000 7750 4050
+Wire Wire Line
+	7150 4300 9000 4300
+Connection ~ 7700 4300
+Connection ~ 8000 4300
+$Comp
+L D D22
+U 1 1 58677B73
+P 8600 2750
+F 0 "D22" H 8600 2850 50  0000 C CNN
+F 1 "VESD01-02V" H 8300 2800 50  0000 C CNN
+F 2 "" H 8600 2750 50  0001 C CNN
+F 3 "" H 8600 2750 50  0000 C CNN
+	1    8600 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 2800 9000 2800
+Wire Wire Line
+	8450 2800 8450 2750
+Connection ~ 8450 2800
+Text GLabel 8100 1000 2    60   Input ~ 0
+AGND
+Text GLabel 8250 1400 2    60   Input ~ 0
+AGND
+Text GLabel 8000 1750 2    60   Input ~ 0
+AGND
+Text GLabel 8150 2150 2    60   Input ~ 0
+AGND
+Text GLabel 8750 2750 2    60   Input ~ 0
+AGND
+Text GLabel 8150 2900 2    60   Input ~ 0
+AGND
+Text GLabel 8050 3250 2    60   Input ~ 0
+AGND
+Text GLabel 8050 3650 2    60   Input ~ 0
+AGND
+Text GLabel 8050 4000 2    60   Input ~ 0
+AGND
+Wire Wire Line
+	8000 4000 8050 4000
+$EndSCHEMATC

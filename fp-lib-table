@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name microSD)(type KiCad)(uri "$(KIPRJMOD)/PCB/MicroSD.pretty")(options "")(descr ""))
+  (lib (name ads1263)(type Eagle)(uri "$(KIPRJMOD)/PCB/ads1263.lbr")(options "")(descr ""))
+  (lib (name Footprints)(type KiCad)(uri "$(KIPRJMOD)/PCB/footprints.pretty")(options "")(descr ""))
+  (lib (name Edison)(type Eagle)(uri "$(KIPRJMOD)/PCB/Edison.lbr")(options "")(descr ""))
+  (lib (name con5x2)(type KiCad)(uri "$(KIPRJMOD)/PCB/con5x2.pretty")(options "")(descr ""))
+)

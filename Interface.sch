@@ -1,0 +1,489 @@
+EESchema Schematic File Version 2
+LIBS:datalogger_v2-rescue
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Edison
+LIBS:PCA9306
+LIBS:opa228
+LIBS:ads1263
+LIBS:tps7a4700
+LIBS:TXB0108-PW
+LIBS:DataStorage
+LIBS:ada4528-1
+LIBS:ads1299
+LIBS:LM4132
+LIBS:REF3025
+LIBS:datalogger_v2-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 6
+Title "Datalogger / 7-of-9"
+Date "2016-06-01"
+Rev "2"
+Comp "Richard Oare / University of Idaho"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L C C40
+U 1 1 575CE137
+P 5300 4300
+F 0 "C40" H 5325 4400 50  0000 L CNN
+F 1 "10uF" H 5325 4200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5338 4150 50  0001 C CNN
+F 3 "" H 5300 4300 50  0000 C CNN
+	1    5300 4300
+	-1   0    0    1   
+$EndComp
+$Comp
+L Crystal Y1
+U 1 1 575CE140
+P 3100 4350
+F 0 "Y1" H 3100 4500 50  0000 C CNN
+F 1 "Crystal" H 3100 4200 50  0000 C CNN
+F 2 "Footprints:crystal" H 3100 4350 50  0001 C CNN
+F 3 "" H 3100 4350 50  0000 C CNN
+	1    3100 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L C C38
+U 1 1 575CE147
+P 2950 4550
+F 0 "C38" H 2975 4650 50  0000 L CNN
+F 1 "18pF" H 2975 4450 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2988 4400 50  0001 C CNN
+F 3 "" H 2950 4550 50  0000 C CNN
+	1    2950 4550
+	0    1    1    0   
+$EndComp
+$Comp
+L C C37
+U 1 1 575CE14E
+P 2950 4150
+F 0 "C37" H 2975 4250 50  0000 L CNN
+F 1 "18pF" H 2975 4050 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2988 4000 50  0001 C CNN
+F 3 "" H 2950 4150 50  0000 C CNN
+	1    2950 4150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 2800 4350 0    60   Input ~ 0
+DGND
+Text HLabel 3650 3450 0    60   Output ~ 0
+SPI_CLK
+Text HLabel 3650 3350 0    60   Input ~ 0
+SPI_RXD
+Text HLabel 3650 3150 0    60   Output ~ 0
+SPI_TXD
+Text HLabel 3650 2950 0    60   Output ~ 0
+START
+Text HLabel 3650 2750 0    60   Output ~ 0
+PWDN
+Text HLabel 3650 3050 0    60   Input ~ 0
+DRDY
+Wire Wire Line
+	3100 4150 3100 4200
+Wire Wire Line
+	3100 4500 3100 4550
+Wire Wire Line
+	3100 4150 3650 4150
+Wire Wire Line
+	2800 4150 2800 4550
+Text HLabel 3650 3250 0    60   Output ~ 0
+CS
+$Comp
+L R R28
+U 1 1 57623EB0
+P 5600 2500
+F 0 "R28" V 5680 2500 50  0000 C CNN
+F 1 "50K" V 5600 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5530 2500 50  0001 C CNN
+F 3 "" H 5600 2500 50  0000 C CNN
+	1    5600 2500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_02X05 P5
+U 1 1 58239778
+P 6150 2250
+F 0 "P5" H 6150 2550 50  0000 C CNN
+F 1 "CONN_02X05" H 6150 1950 50  0000 C CNN
+F 2 "Connectors_Samtec:Samtec-FTSH-105-01" H 6150 1050 50  0001 C CNN
+F 3 "" H 6150 1050 50  0000 C CNN
+	1    6150 2250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 4250 3350 4550
+Wire Wire Line
+	3350 4550 3100 4550
+$Comp
+L C C39
+U 1 1 58239297
+P 5500 4300
+F 0 "C39" H 5525 4400 50  0000 L CNN
+F 1 "0.1uF" H 5525 4200 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5538 4150 50  0001 C CNN
+F 3 "" H 5500 4300 50  0000 C CNN
+	1    5500 4300
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 3850 2    60   Input ~ 0
+DGND
+$Comp
+L R R26
+U 1 1 5827288E
+P 6150 3550
+F 0 "R26" V 6230 3550 50  0000 C CNN
+F 1 "0" V 6150 3550 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 6080 3550 50  0001 C CNN
+F 3 "" H 6150 3550 50  0000 C CNN
+	1    6150 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R27
+U 1 1 582728D6
+P 5900 3450
+F 0 "R27" V 5980 3450 50  0000 C CNN
+F 1 "0" V 5900 3450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5830 3450 50  0001 C CNN
+F 3 "" H 5900 3450 50  0000 C CNN
+	1    5900 3450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5500 4050 5500 4150
+$Comp
+L USB_B-RESCUE-datalogger_v2 P4
+U 1 1 5898EAB5
+P 8100 3550
+AR Path="/5898EAB5" Ref="P4"  Part="1" 
+AR Path="/575CCED8/5898EAB5" Ref="P4"  Part="1" 
+F 0 "P4" H 8300 3350 50  0000 C CNN
+F 1 "USB_B" H 8050 3750 50  0000 C CNN
+F 2 "Footprints:usbB" V 8050 3450 50  0001 C CNN
+F 3 "" V 8050 3450 50  0000 C CNN
+	1    8100 3550
+	0    1    1    0   
+$EndComp
+Text GLabel 7250 3150 1    60   Input ~ 0
+D5V
+$Comp
+L C C35
+U 1 1 5898EABD
+P 7750 3000
+F 0 "C35" H 7775 3100 50  0000 L CNN
+F 1 "0.1uF" H 7775 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 7788 2850 50  0001 C CNN
+F 3 "" H 7750 3000 50  0000 C CNN
+	1    7750 3000
+	1    0    0    -1  
+$EndComp
+Text GLabel 7800 3650 0    60   Input ~ 0
+DGND
+$Comp
+L CP C36
+U 1 1 5898EAC6
+P 7550 3000
+F 0 "C36" H 7575 3100 50  0000 L CNN
+F 1 "10uF" H 7575 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603T" H 7588 2850 50  0001 C CNN
+F 3 "" H 7550 3000 50  0000 C CNN
+	1    7550 3000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7750 2850 7550 2850
+$Comp
+L ZENER D1
+U 1 1 5898EACE
+P 6750 3750
+F 0 "D1" H 6750 3850 50  0000 C CNN
+F 1 "PGB1010" H 6750 3650 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 6750 3750 50  0001 C CNN
+F 3 "" H 6750 3750 50  0000 C CNN
+	1    6750 3750
+	0    1    1    0   
+$EndComp
+$Comp
+L ZENER D2
+U 1 1 5898EAD5
+P 6400 3250
+F 0 "D2" H 6400 3350 50  0000 C CNN
+F 1 "PGB1010" H 6400 3150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 6400 3250 50  0001 C CNN
+F 3 "" H 6400 3250 50  0000 C CNN
+	1    6400 3250
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6400 3450
+$Comp
+L FILTER FB1
+U 1 1 5898EAE0
+P 8200 4200
+F 0 "FB1" H 8200 4350 50  0000 C CNN
+F 1 "BLM21" H 8200 4100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 8200 4200 50  0001 C CNN
+F 3 "" H 8200 4200 50  0000 C CNN
+	1    8200 4200
+	0    -1   -1   0   
+$EndComp
+Text GLabel 8200 4550 0    60   Input ~ 0
+DGND
+$Comp
+L F_Small F1
+U 1 1 5898EAE8
+P 7650 3350
+F 0 "F1" H 7610 3410 50  0000 L CNN
+F 1 "F_Small" H 7530 3290 50  0000 L CNN
+F 2 "Resistors_SMD:R_0603" H 7650 3350 50  0001 C CNN
+F 3 "" H 7650 3350 50  0000 C CNN
+	1    7650 3350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 3350 7750 3350
+Wire Wire Line
+	7550 3350 7250 3350
+Wire Wire Line
+	7250 3350 7250 3150
+Wire Wire Line
+	7250 3150 7750 3150
+Connection ~ 7550 3150
+Text GLabel 5950 3550 3    60   Input ~ 0
+D_P
+Text GLabel 5700 3450 1    60   Input ~ 0
+D_N
+Text HLabel 3650 2850 0    60   Output ~ 0
+RESET
+Wire Wire Line
+	4850 4050 5500 4050
+Text GLabel 5400 4450 3    60   Input ~ 0
+DGND
+Wire Wire Line
+	5500 4150 5300 4150
+Wire Wire Line
+	5300 4450 5500 4450
+Text GLabel 6000 4050 2    60   Input ~ 0
+D3.3V
+Wire Wire Line
+	3350 4250 3650 4250
+Wire Wire Line
+	5350 3250 5550 3250
+Wire Wire Line
+	5550 3250 5550 3100
+Wire Wire Line
+	5550 3100 6250 3100
+Wire Wire Line
+	6250 3100 6250 2500
+Wire Wire Line
+	5400 3350 5600 3350
+Wire Wire Line
+	5600 3350 5600 3200
+Wire Wire Line
+	5600 3200 6250 3200
+Wire Wire Line
+	6250 3200 6250 3150
+Wire Wire Line
+	6250 3150 6350 3150
+Wire Wire Line
+	6350 3150 6350 2500
+Wire Wire Line
+	5950 2500 5950 3000
+Wire Wire Line
+	5950 3000 5500 3000
+Wire Wire Line
+	5500 3000 5500 3150
+Wire Wire Line
+	5500 3150 5300 3150
+Text GLabel 6350 2000 1    60   Input ~ 0
+D3.3V
+Text GLabel 5400 2500 1    60   Input ~ 0
+D3.3V
+Wire Wire Line
+	5400 2500 5450 2500
+Wire Wire Line
+	5750 2500 5950 2500
+Text GLabel 6250 2000 1    60   Input ~ 0
+DGND
+Text GLabel 6150 2000 1    60   Input ~ 0
+DGND
+Text GLabel 5950 2000 1    60   Input ~ 0
+DGND
+Text GLabel 7650 2850 1    60   Input ~ 0
+DGND
+$Comp
+L SAMD21 U5
+U 1 1 5924CB1C
+P 4450 4150
+F 0 "U5" H 4500 5700 60  0000 C CNN
+F 1 "SAMD21" H 4050 5700 60  0000 C CNN
+F 2 "Housings_DFN_QFN:QFN-32-1EP_5x5mm_Pitch0.5mm" H 4450 4150 60  0001 C CNN
+F 3 "" H 4450 4150 60  0001 C CNN
+	1    4450 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 3650 3650 0    60   Input ~ 0
+DGND
+Wire Wire Line
+	5400 3350 5400 4000
+Wire Wire Line
+	5400 4000 5050 4000
+Wire Wire Line
+	5050 4000 5050 4250
+Wire Wire Line
+	5050 4250 4850 4250
+Wire Wire Line
+	4850 4150 4950 4150
+Wire Wire Line
+	4950 4150 4950 3950
+Wire Wire Line
+	4950 3950 5350 3950
+Wire Wire Line
+	5350 3950 5350 3250
+Wire Wire Line
+	4850 3650 5300 3650
+Wire Wire Line
+	5300 3650 5300 3150
+$Comp
+L C C41
+U 1 1 5924EFC4
+P 2450 3700
+F 0 "C41" H 2475 3800 50  0000 L CNN
+F 1 "10uF" H 2475 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2488 3550 50  0001 C CNN
+F 3 "" H 2450 3700 50  0000 C CNN
+	1    2450 3700
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C42
+U 1 1 5924EFCA
+P 2650 3700
+F 0 "C42" H 2675 3800 50  0000 L CNN
+F 1 "0.1uF" H 2675 3600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 2688 3550 50  0001 C CNN
+F 3 "" H 2650 3700 50  0000 C CNN
+	1    2650 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 2550 3850 3    60   Input ~ 0
+DGND
+Wire Wire Line
+	2450 3550 3650 3550
+Wire Wire Line
+	2450 3850 2650 3850
+Text GLabel 2550 3550 1    60   Input ~ 0
+D3.3V
+Connection ~ 2650 3550
+$Comp
+L C C43
+U 1 1 5924F333
+P 4900 4500
+F 0 "C43" H 4925 4600 50  0000 L CNN
+F 1 "1uF" H 4925 4400 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4938 4350 50  0001 C CNN
+F 3 "" H 4900 4500 50  0000 C CNN
+	1    4900 4500
+	-1   0    0    1   
+$EndComp
+Text GLabel 4900 4650 3    60   Input ~ 0
+DGND
+Wire Wire Line
+	4850 3950 4900 3950
+Wire Wire Line
+	4900 3950 4900 4350
+Wire Wire Line
+	5200 3450 5750 3450
+Wire Wire Line
+	5200 3450 5200 3350
+Wire Wire Line
+	5200 3350 4850 3350
+Wire Wire Line
+	5100 3550 6000 3550
+Wire Wire Line
+	5100 3550 5100 3450
+Wire Wire Line
+	5100 3450 4850 3450
+$Comp
+L INDUCTOR_SMALL L1
+U 1 1 59444ADD
+P 5750 4050
+F 0 "L1" H 5750 4150 50  0000 C CNN
+F 1 "10uH" H 5750 4000 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0603" H 5750 4050 50  0001 C CNN
+F 3 "" H 5750 4050 50  0000 C CNN
+	1    5750 4050
+	1    0    0    -1  
+$EndComp
+Text GLabel 6750 3950 3    60   Input ~ 0
+DGND
+Text GLabel 6400 3050 1    60   Input ~ 0
+DGND
+$Comp
+L ZENER D9
+U 1 1 59C00790
+P 6400 3750
+F 0 "D9" H 6400 3850 50  0000 C CNN
+F 1 "PGB1010" H 6400 3650 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 6400 3750 50  0001 C CNN
+F 3 "" H 6400 3750 50  0000 C CNN
+	1    6400 3750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L ZENER D10
+U 1 1 59C0082F
+P 6750 3250
+F 0 "D10" H 6750 3350 50  0000 C CNN
+F 1 "PGB1010" H 6750 3150 50  0000 C CNN
+F 2 "Diodes_SMD:D_0603" H 6750 3250 50  0001 C CNN
+F 3 "" H 6750 3250 50  0000 C CNN
+	1    6750 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6050 3450 7800 3450
+Connection ~ 6750 3450
+Text GLabel 6400 3950 3    60   Input ~ 0
+D5V
+Text GLabel 6750 3050 1    60   Input ~ 0
+D5V
+Wire Wire Line
+	6300 3550 7800 3550
+Connection ~ 6400 3550
+Connection ~ 6750 3550
+$EndSCHEMATC

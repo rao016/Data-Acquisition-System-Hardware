@@ -1,0 +1,50 @@
+** Drc report for /Users/richard/Library/Mobile Documents/com~apple~CloudDocs/Work/DAQ/Datalogger_v4p1_SAMD21/datalogger_v2.kicad_pcb **
+** Created on 2017-06-16 18:49:12 **
+
+** Found 0 DRC errors **
+
+** Found 14 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (140.834 mm,112.090 mm): Pad 1 on B.Cu, Non-copper of C18 net Net-(C18-Pad1)
+    @ (148.027 mm,107.042 mm): Pad 8 on B.Cu, Non-copper of U4
+ErrType(2): Unconnected pads
+    @ (137.732 mm,88.087 mm): Pad 2 on B.Cu, Non-copper of D2 net Net-(D1-Pad2)
+    @ (137.922 mm,91.934 mm): Pad 2 on B.Cu, Non-copper of D1
+ErrType(2): Unconnected pads
+    @ (135.651 mm,126.441 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of P6 net Net-(D3-Pad1)
+    @ (136.284 mm,121.426 mm): Pad 1 on B.Cu, Non-copper of D3
+ErrType(2): Unconnected pads
+    @ (141.237 mm,121.426 mm): Pad 1 on B.Cu, Non-copper of D4 net Net-(D4-Pad1)
+    @ (140.651 mm,126.441 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of P6
+ErrType(2): Unconnected pads
+    @ (146.253 mm,121.426 mm): Pad 1 on B.Cu, Non-copper of D5 net Net-(D5-Pad1)
+    @ (145.651 mm,126.441 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of P6
+ErrType(2): Unconnected pads
+    @ (150.651 mm,126.441 mm): Pad 4 on F.Cu, B.Cu, Internal, Non-copper of P6 net Net-(D6-Pad1)
+    @ (151.270 mm,121.426 mm): Pad 1 on B.Cu, Non-copper of D6
+ErrType(2): Unconnected pads
+    @ (155.651 mm,126.441 mm): Pad 5 on F.Cu, B.Cu, Internal, Non-copper of P6 net Net-(D7-Pad1)
+    @ (156.286 mm,121.426 mm): Pad 1 on B.Cu, Non-copper of D7
+ErrType(2): Unconnected pads
+    @ (160.651 mm,126.441 mm): Pad 6 on F.Cu, B.Cu, Internal, Non-copper of P6 net Net-(D8-Pad1)
+    @ (161.239 mm,121.426 mm): Pad 1 on B.Cu, Non-copper of D8
+ErrType(2): Unconnected pads
+    @ (147.027 mm,107.042 mm): Pad 10 on B.Cu, Non-copper of U4 net Net-(C17-Pad1)
+    @ (146.168 mm,112.090 mm): Pad 1 on B.Cu, Non-copper of C17
+ErrType(2): Unconnected pads
+    @ (135.881 mm,112.090 mm): Pad 1 on B.Cu, Non-copper of C19 net Net-(C19-Pad1)
+    @ (149.027 mm,107.042 mm): Pad 6 on B.Cu, Non-copper of U4
+ErrType(2): Unconnected pads
+    @ (161.281 mm,112.090 mm): Pad 1 on B.Cu, Non-copper of C14 net Net-(C14-Pad1)
+    @ (144.027 mm,107.042 mm): Pad 16 on B.Cu, Non-copper of U4
+ErrType(2): Unconnected pads
+    @ (145.027 mm,107.042 mm): Pad 14 on B.Cu, Non-copper of U4 net Net-(C15-Pad1)
+    @ (156.455 mm,111.963 mm): Pad 1 on B.Cu, Non-copper of C15
+ErrType(2): Unconnected pads
+    @ (151.121 mm,112.090 mm): Pad 1 on B.Cu, Non-copper of C16 net Net-(C16-Pad1)
+    @ (146.027 mm,107.042 mm): Pad 12 on B.Cu, Non-copper of U4
+ErrType(2): Unconnected pads
+    @ (129.388 mm,121.505 mm): Pad 1 on B.Cu, Non-copper of C13 net A-
+    @ (128.727 mm,126.441 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of P3
+
+** End of Report **

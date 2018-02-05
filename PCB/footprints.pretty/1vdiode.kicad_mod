@@ -1,0 +1,10 @@
+(module 1vdiode (layer F.Cu) (tedit 58698043)
+  (fp_text reference REF** (at 0.3302 0.98298) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value "1V Diode" (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 2 smd rect (at -0.725 0) (size 0.35 0.4) (layers F.Cu F.Paste F.Mask))
+  (pad 1 smd rect (at 0.725 0) (size 0.35 0.4) (layers F.Cu F.Paste F.Mask))
+)

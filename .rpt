@@ -1,0 +1,32 @@
+** Drc report for /Users/richard/Library/Mobile Documents/com~apple~CloudDocs/Work/DAQ/Datalogger_v4p1_SAMD21/datalogger_v2.kicad_pcb **
+** Created on 2018-01-26 08:07:56 **
+
+** Found 0 DRC errors **
+
+** Found 8 unconnected pads **
+ErrType(2): Unconnected pads
+    @ (129.388 mm,121.505 mm): Pad 1 on B.Cu, Non-copper of C13 net A-
+    @ (128.727 mm,126.441 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of P3
+ErrType(2): Unconnected pads
+    @ (139.584 mm,81.830 mm): Pad 5 on F.Cu, B.Cu, Internal, Non-copper of P4 net Net-(FB1-Pad2)
+    @ (132.284 mm,81.830 mm): Pad 5 on F.Cu, B.Cu, Internal, Non-copper of P4
+ErrType(2): Unconnected pads
+    @ (135.651 mm,126.441 mm): Pad 1 on F.Cu, B.Cu, Internal, Non-copper of P6 net Net-(D11-Pad2)
+    @ (138.127 mm,123.419 mm): Pad 2 on B.Cu, Non-copper of D11
+ErrType(2): Unconnected pads
+    @ (140.651 mm,126.441 mm): Pad 2 on F.Cu, B.Cu, Internal, Non-copper of P6 net Net-(D12-Pad2)
+    @ (143.131 mm,123.393 mm): Pad 2 on B.Cu, Non-copper of D12
+ErrType(2): Unconnected pads
+    @ (145.651 mm,126.441 mm): Pad 3 on F.Cu, B.Cu, Internal, Non-copper of P6 net Net-(D13-Pad2)
+    @ (148.160 mm,123.393 mm): Pad 2 on B.Cu, Non-copper of D13
+ErrType(2): Unconnected pads
+    @ (153.163 mm,123.419 mm): Pad 2 on B.Cu, Non-copper of D14 net Net-(D14-Pad2)
+    @ (150.651 mm,126.441 mm): Pad 4 on F.Cu, B.Cu, Internal, Non-copper of P6
+ErrType(2): Unconnected pads
+    @ (155.651 mm,126.441 mm): Pad 5 on F.Cu, B.Cu, Internal, Non-copper of P6 net Net-(D15-Pad2)
+    @ (158.142 mm,123.368 mm): Pad 2 on B.Cu, Non-copper of D15
+ErrType(2): Unconnected pads
+    @ (160.651 mm,126.441 mm): Pad 6 on F.Cu, B.Cu, Internal, Non-copper of P6 net Net-(D16-Pad2)
+    @ (163.146 mm,123.393 mm): Pad 2 on B.Cu, Non-copper of D16
+
+** End of Report **
